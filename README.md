@@ -6,7 +6,8 @@
 In this assignment we were requiered to develop a chat application in tow parts.  
 1. basic messaging over TCP.
 2. The abilty to transfer files over RUDP (realiable UDP).  
-3. we've also created a GUI interface for the client, but due to the fact that it does not fully operational as of yet, we'll only demonstrate it in person.
+3. every thing is managed in SQLITE database - users, files, messages.
+4. we've also created a GUI interface for the client, but due to the fact that it does not fully operational as of yet, we'll only demonstrate it in person.
 
 Essentially we we had to implement reliable file transfer by implementing something similar to how TCP works.  
  
@@ -69,6 +70,10 @@ and finely we captured the FIN message that tell as we got the last packet
 
 download this repository and folow this steps:
 * very important to make sure tha the correct IP addresses are in both the server file and in the client file.
+* make sure that the files `hello.txt`, `lama.png`, `mov.mp4` are in the same folder as the `server.py`.
+* in order of not getting in truble, if you want to activate a client in another pc, take all of the files with you,  
+also it is only neseccery that you have the `client.py`, and the `util`, for the off chance that we forgot somthing like an import of some kind.  
+
 
 1. open a terminal window in the folder with the `server.py` file.
 2. run the folowing comand:  
@@ -87,6 +92,7 @@ python3 client.py
 5. since we used a database, you first have to register or else you wont be able to login.
 6. folow the prompt that show up.
 7. after you successfuly loged in you can send messages freely, and run the folowing comands:    
+8. you can open as many client as you want.
 
 to get the registered clients:
 ```
