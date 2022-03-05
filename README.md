@@ -111,4 +111,7 @@ to send private message:
 
 
 ## GUI screenshots
+![image](https://user-images.githubusercontent.com/66886354/156900289-49f7f832-a01a-441e-9d2e-b0446e28ec98.png)
+![image](https://user-images.githubusercontent.com/66886354/156900303-c6d3e8ca-84e2-42c7-b7de-c1587c6f1358.png)
+![image](https://user-images.githubusercontent.com/66886354/156900334-0738b899-4971-44ad-a597-0d186f38a263.png)
 
