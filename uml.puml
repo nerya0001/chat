@@ -1,0 +1,72 @@
+@startuml
+!theme reddress-darkblue
+class Server
+class Client
+class db_util
+class util
+
+
+
+
+class Server{
+- socket tcp
+
++ recv()
++ broadcast()
++ handle()
++ send_file()
++ login()
++ register()
+
+}
+
+class db_util {
++ create_db()
++ update_status()
++ submit_to_db()
++ submit_file_to_db()
++ get_client_id()
++ get_clients_list()
++ get_online_clients()
++ log_message()
++ disconnect_all()
++ remove_file()
++ get_file_list()
+}
+
+class Client{
+- socket tcp
+- recv_file
+- next_packt
+- stop_receive
+- is_running
+- receive_thread
+- write_thread
+
++ receive_file()
++ write()
++ receive()
+}
+
+
+class util{
++ load_file()
++ send_datagram()
++ resend_util
++ resend_append_util
+}
+
+class GUI_Contoller {
+}
+
+class GUI {
+}
+
+Server <-- db_util
+Server <-- Client
+Server <-- util
+Client <-- Server
+Client <-- util
+Client <-- GUI_Contoller
+GUI <-- GUI_Contoller
+@enduml
