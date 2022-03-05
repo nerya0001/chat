@@ -1,4 +1,4 @@
-# chat
+# RUDP Chat app
 
 > Made by Nerya Bigon and Eitan shenkolovski
 * Assignment in networking course    
@@ -9,6 +9,9 @@ In this assignment we were requiered to develop a chat application in tow parts.
 3. we've also created a GUI interface for the client, but due to the fact that it does not fully operational as of yet, we'll only demonstrate it in person.
 
 Essentially we we had to implement reliable file transfer by implementing something similar to how TCP works.  
+ 
+* To get to [how to run](https://github.com/nerya0001/chat/blob/main/README.md#how-to-use)   
+* To ge to our [GUI screenshots] 
 
 ## The algorithm
 for the reliable UDP we chose to implement something close to selective repeat congestion control.   
@@ -103,4 +106,8 @@ to download a file:
 to send private message:
 ```
 /to username
-```
+```  
+
+
+## GUI screenshots
+
