@@ -65,7 +65,7 @@ and finely we captured the FIN message that tell as we got the last packet
 
 
 
-## How To Use
+## How To Run
 
 download this repository and folow this steps:
 * very important to make sure tha the correct IP addresses are in both the server file and in the client file.
