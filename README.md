@@ -11,8 +11,11 @@ In this assignment we were requiered to develop a chat application in tow parts.
 Essentially we we had to implement reliable file transfer by implementing something similar to how TCP works.  
  
 * To get to [how to run](https://github.com/nerya0001/chat/blob/main/README.md#how-to-use)   
-* To ge to our [GUI screenshots](https://github.com/nerya0001/chat/blob/main/README.md#gui-screenshots)
-* [video of the gui]() 
+* To ge to our [GUI screenshots](https://github.com/nerya0001/chat/blob/main/README.md#gui-screenshots)  
+* * [video of the operation](https://youtu.be/sDj64U_8Os4) 
+* [video of the gui](https://youtu.be/PFcUYh2-zNc) 
+
+
 
 ## The algorithm
 for the reliable UDP we chose to implement something close to selective repeat congestion control.   
