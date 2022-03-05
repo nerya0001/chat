@@ -12,7 +12,7 @@ Essentially we we had to implement reliable file transfer by implementing someth
  
 * To get to [how to run](https://github.com/nerya0001/chat/blob/main/README.md#how-to-use)   
 * To ge to our [GUI screenshots](https://github.com/nerya0001/chat/blob/main/README.md#gui-screenshots)  
-* * [video of the operation](https://youtu.be/sDj64U_8Os4) 
+* [video of the operation](https://youtu.be/sDj64U_8Os4) 
 * [video of the gui](https://youtu.be/PFcUYh2-zNc) 
 
 
