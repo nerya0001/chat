@@ -88,9 +88,6 @@ python3 client.py
 6. folow the prompt that show up.
 7. after you successfuly loged in you can send messages freely, and run the folowing comands:    
 
-
-![image](https://user-images.githubusercontent.com/66886354/156899335-abdb48e6-9e49-43d4-9f5f-89a7779b32e8.png)   
-
 to get the registered clients:
 ```
 /clientslist
@@ -110,7 +107,9 @@ to download a file:
 to send private message:
 ```
 /to username
-```  
+```    
+
+![image](https://user-images.githubusercontent.com/66886354/156899335-abdb48e6-9e49-43d4-9f5f-89a7779b32e8.png)   
 
 
 ## GUI screenshots
